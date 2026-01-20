@@ -84,7 +84,7 @@ else:
 # ------------------ Main Chat ------------------
 
 if not st.session_state.current_thread:
-    st.info("Select a thread from the sidebar")
+    st.info("Select a thread from the sidebarr")
     st.stop()
 
 st.title(f"💬 {st.session_state.current_thread}")
